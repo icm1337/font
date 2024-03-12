@@ -23,7 +23,12 @@
 	<!-- CSS -->
 	<link rel="stylesheet" href="css/style.min.css?_v=20230311114231">
 </head>
-
+<style>
+    .form-container {
+        border: 2px solid black;
+        padding: 20px;
+    }
+</style>
 <body>
 	<header>
 	<div class="container">
@@ -81,18 +86,21 @@
     <h1>
         Save Time and Start Digital Wallet!
     </h1>
-    <form>
-        <label for="name">Name:</label>
-        <input type="text" id="name" name="name"><br><br>
-        <label for="email">Email:</label>
-        <input type="email" id="email" name="email"><br><br>
-        <label for="phone">Phone:</label>
-        <input type="tel" id="phone" name="phone"><br><br>
-        <div class="hero__buttons">
-            <button type="submit" class="btn">
-                Get Started
-            </button>
-    </form>
+    <div class="form-container">
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name"><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email"><br><br>
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone"><br><br>
+            <input type="submit" value="Submit">
+            <div class="hero__buttons">
+                <button type="submit" class="btn">
+                    Get Started
+                </button>
+            </div>
+        </form>
 					<a href="#" class="hero__watch">
 						<svg width="57" height="58" viewBox="0 0 57 58" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<path fill-rule="evenodd" clip-rule="evenodd"
